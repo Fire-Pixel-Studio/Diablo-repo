@@ -14,3 +14,11 @@ Version: 3.0
 
 
 }
+/* Force-show elements hidden by broken theme JS (Flickity slider / scroll animations) */
+.bg.attachment-original,
+[data-animate],
+.text-box-content {
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: none !important;
+}
