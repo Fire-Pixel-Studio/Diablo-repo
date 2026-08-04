@@ -25,3 +25,7 @@ Version: 3.0
 
 .loading-spin { display: none !important; }
 .slider-wrapper, .slider { opacity: 1 !important; visibility: visible !important; }
+
+.banner-layers, .text-box.banner-layer { z-index: 5 !important; opacity: 1 !important; visibility: visible !important; }
+.banner { position: relative !important; }
+.overlay { z-index: 1 !important; }
