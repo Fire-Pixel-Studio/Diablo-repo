@@ -22,3 +22,6 @@ Version: 3.0
   visibility: visible !important;
   transform: none !important;
 }
+
+.loading-spin { display: none !important; }
+.slider-wrapper, .slider { opacity: 1 !important; visibility: visible !important; }
