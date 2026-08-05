@@ -29,3 +29,9 @@ Version: 3.0
 .banner-layers, .text-box.banner-layer { z-index: 5 !important; opacity: 1 !important; visibility: visible !important; }
 .banner { position: relative !important; }
 .overlay { z-index: 1 !important; }
+
+.text-box.banner-layer {
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+}
